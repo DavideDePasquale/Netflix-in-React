@@ -11,7 +11,7 @@ body {
 }
 
 .animazioneCard:hover {
-  transform: scale(1.05); /* Ingrandiamo la card quando il mouse passa sopra */
+  transform: scale(1.03); /* Ingrandiamo la card quando il mouse passa sopra */
 }
 .fontSpecial {
   font-size: 10px;

@@ -39,15 +39,11 @@ class PrimaPartePagCen extends Component {
         <Row xs={1} sm={2} md={3} lg={3} xl={6} className="mb-4">
           {this.state.film1.map((film) => (
             <Col key={film.imdbID} className="mb-4 text-center px-1">
-              <Card className="animazioneCard border-0">
+              <Card className="animazioneCard border-0 h-100">
                 <Card.Img
                   src={film.Poster}
                   alt={film.Title}
-                  className="img-fluid"
-                  style={{
-                    height: "150px",
-                    objectFit: "cover"
-                  }}
+                  className="img-fluid h-100"
                 />
               </Card>
             </Col>
