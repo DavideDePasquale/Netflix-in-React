@@ -13,10 +13,22 @@ function Footer() {
             <Col xs={6}>
               <Row>
                 <Col className=" mb-2">
-                  <Facebook className="mx-2" style={{ color: "#adb5bd3b" }} />
-                  <Instagram className="mx-2" style={{ color: "#adb5bd3b" }} />
-                  <Twitter className="mx-2" style={{ color: "#adb5bd3b" }} />
-                  <Youtube className="mx-2" style={{ color: "#adb5bd3b" }} />
+                  <Facebook
+                    className="mx-2"
+                    style={{ color: "rgb(173 181 189 / 64%)" }}
+                  />
+                  <Instagram
+                    className="mx-2"
+                    style={{ color: "rgb(173 181 189 / 64%)" }}
+                  />
+                  <Twitter
+                    className="mx-2"
+                    style={{ color: "rgb(173 181 189 / 64%)" }}
+                  />
+                  <Youtube
+                    className="mx-2"
+                    style={{ color: "rgb(173 181 189 / 64%)" }}
+                  />
                 </Col>
               </Row>
               <Row xs={1} sm={2} md={4} lg={4}>
@@ -28,7 +40,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Audio and Subtitles
                         </a>
@@ -38,7 +50,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Media Center
                         </a>
@@ -48,7 +60,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Privacy
                         </a>
@@ -58,7 +70,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Contact us
                         </a>
@@ -74,7 +86,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Audio Description
                         </a>
@@ -84,7 +96,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Investor Relations
                         </a>
@@ -94,7 +106,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Legal Notices
                         </a>
@@ -110,7 +122,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Help Center
                         </a>
@@ -120,7 +132,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Jobs
                         </a>
@@ -130,7 +142,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Cookie Preferences
                         </a>
@@ -146,7 +158,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Gift Cards
                         </a>
@@ -156,7 +168,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Terms of Use
                         </a>
@@ -166,7 +178,7 @@ function Footer() {
                           href="#"
                           alt="footer link"
                           className="text-decoration-none fontSpecial2"
-                          style={{ color: "#adb5bd3b" }}
+                          style={{ color: "rgb(173 181 189 / 64%)" }}
                         >
                           Corporate Information
                         </a>
@@ -180,7 +192,10 @@ function Footer() {
                   <Button
                     type="button"
                     className="btn-sm footer-button rounded-0 mt-3 bg-transparent border-1"
-                    style={{ borderColor: "#adb5bd3b", color: "#adb5bd3b" }}
+                    style={{
+                      borderColor: "rgb(173 181 189 / 64%)",
+                      color: "rgb(173 181 189 / 64%)"
+                    }}
                   >
                     Service Code
                   </Button>
@@ -189,7 +204,7 @@ function Footer() {
               <Row>
                 <Col
                   className=" mb-2 mt-2 copyright fontSpecial"
-                  style={{ color: "#adb5bd3b" }}
+                  style={{ color: "rgb(173 181 189 / 64%)" }}
                 >
                   © 1997-2023 Netflix, Inc.
                 </Col>
